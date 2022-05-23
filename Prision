@@ -1,6 +1,10 @@
 import numpy as np 
 import pandas as pd 
 
-import ninos.csv
+import ninoss.csv
+
+df = pd.read_csv('ninoss.csv', sep=',')
+
+print(df)
 
 
